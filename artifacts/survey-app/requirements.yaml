@@ -1,0 +1,14 @@
+packages:
+  "framer-motion": "For smooth page transitions and beautiful entry animations"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+  "@hookform/resolvers": "For Zod validation with React Hook Form"
+  "react-hook-form": "For robust form state and validation management"
+  "zod": "For schema validation"
+  "recharts": "For the results page data visualizations"
+  "@supabase/supabase-js": "For direct database connection"
+
+notes:
+  - "The app talks directly to Supabase from the browser using the JS client."
+  - "No backend API server is required."
+  - "The database schema expects specific column names matching the form fields."
